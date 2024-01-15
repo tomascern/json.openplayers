@@ -11,12 +11,6 @@
             "showname",
             "season",
             "episode"
-        ],
-        "search_movie": [
-            "title"
-        ],
-        "search_episode": [
-            "showname"
         ]
     },
     "play_movie": [
@@ -43,18 +37,6 @@
             "season": "^{season}$",
             "episode": "^{episode}$"
         }
-    ],
-    "search_movie": [
-        "plugin://plugin.video.stream-cinema-2-release/command/?command=search",
-        {
-            "keyboard": "{title}"
-        }
-    ],
-    "search_episode": [
-        "plugin://plugin.video.stream-cinema-2-release/command/?command=search",
-        {
-            "keyboard": "{showname}"
-        }
-    ],
+    ]
     "is_resolvable": "false"
 }
