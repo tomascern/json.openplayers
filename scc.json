@@ -37,6 +37,6 @@
             "season": "^{season}$",
             "episode": "^{episode}$"
         }
-    ]
+    ],
     "is_resolvable": "false"
 }
