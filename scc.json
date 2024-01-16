@@ -1,6 +1,6 @@
 {
     "name": "SCC",
-    "api_language": "cs-CZ",
+    "api_language": "en-US",
     "plugin": "plugin.video.stream-cinema-2-release",
     "priority": 50,
     "assert": {
