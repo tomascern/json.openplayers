@@ -28,15 +28,15 @@
         },
         {
             "return": "true",
-            "season": "^{season}$",
-            "episode": "^{episode}$"
+            "season": "{season}",
+            "episode": "{episode}"
         },
         {
-            "season": "^{season}$"
+            "season": "{season}"
         },
         {
-            "season": "^{season}$",
-            "episode": "^{episode}$"
+            "season": "{season}",
+            "episode": "{episode}"
         }
     ],
     "is_resolvable": "false"
