@@ -5,7 +5,7 @@
     "priority": 50,
     "assert": {
         "play_movie": [
-            "originaltitle",
+            "title",
             "year"
         ],
         "play_episode": [
@@ -17,7 +17,7 @@
     "play_movie": [
         "plugin://plugin.video.stream-cinema-2-release/get_media/?media_type=%2A&render_type=search&url=%252Fapi%252Fmedia%252Ffilter%252Fv2%252Fsearch%253Fvalue%253D{title_url}%2526order%253Ddesc%2526sort%253Dscore%2526type%253D%25252A%2526size%253D50?",
         {
-            "title": "(?i)^(\\[.*\\])?.*{originaltitle}.*(\\[.*\\])?$",
+            "title": "(?i)^(\\[.*\\])?.*{title}.*(\\[.*\\])?$",
             "year": "{year}"
         }
     ],
