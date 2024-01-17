@@ -26,6 +26,9 @@
         {
             "title": "(?i).*{showname}.*",
             "year": "{year}"
+        },
+        {
+            "season": "{season}"
         }
     ],
     "is_resolvable": "false"
